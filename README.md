@@ -1,7 +1,7 @@
 #🚀 calculator-with-python
 This calculator program is designed in Python and replicates the functionality and layout of the Windows Calculator
 
-# Windows-Style Calculator in Python
+## Windows-Style Calculator in Python
 
 This project is a simple calculator application developed in Python. It replicates the functionality and layout of the default Windows Calculator, providing basic arithmetic operations with a familiar interface.
 
@@ -33,5 +33,5 @@ I'm experienced in **JavaScript**, **React**, and **Python**, and I love turning
 Whether it's building interactive UIs or writing efficient backend scripts, I'm always up for a challenge.
 
 📫 Reach me at: [tavanam814@gmail.com]
-
+##Image :
 ![calculator](https://github.com/user-attachments/assets/8cafdef2-99da-4346-b4b1-857cfec36599)
