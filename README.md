@@ -11,7 +11,7 @@ This project is a simple calculator application developed in Python. It replicat
 - Basic operations: addition, subtraction, multiplication, division
 - Styled similar to Windows Calculator
 
-##🧰 Technologies Used
+###🧰 Technologies Used
 
 - Python 3
 - Tkinter (Python standard GUI library)
