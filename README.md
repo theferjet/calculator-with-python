@@ -34,5 +34,4 @@ Whether it's building interactive UIs or writing efficient backend scripts, I'm 
 
 📫 Reach me at: [tavanam814@gmail.com]
 
-##Image :
 ![calculator](https://github.com/user-attachments/assets/8cafdef2-99da-4346-b4b1-857cfec36599)
