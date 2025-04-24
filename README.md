@@ -1,6 +1,7 @@
-![image](https://github.com/user-attachments/assets/99dc7598-e1a5-4ab9-9b89-7998ddb33cbb)#🚀🚀 calculator-with-python
+#🚀 calculator-with-python
 This calculator program is designed in Python and replicates the functionality and layout of the Windows Calculator
-# 🧮 Windows-Style Calculator in Python
+
+# Windows-Style Calculator in Python
 
 This project is a simple calculator application developed in Python. It replicates the functionality and layout of the default Windows Calculator, providing basic arithmetic operations with a familiar interface.
 
@@ -25,5 +26,12 @@ git clone https://github.com/TahaTavana/calculator-with-python.git
 cd calculator-with-python\
 python calc.py
 ```
-![calculator](![image](https://github.com/user-attachments/assets/8cafdef2-99da-4346-b4b1-857cfec36599)
-)
+## About Me
+
+Hi! I'm a bilingual developer fluent in Persian and English.  
+I'm experienced in **JavaScript**, **React**, and **Python**, and I love turning ideas into clean, functional code.  
+Whether it's building interactive UIs or writing efficient backend scripts, I'm always up for a challenge.
+
+📫 Reach me at: [tavanam814@gmail.com]
+
+![calculator](![image](https://github.com/user-attachments/assets/8cafdef2-99da-4346-b4b1-857cfec36599))
