@@ -152,7 +152,23 @@ class calculator_APP():
         self.create_equals_button()
         self.create_square_button()
         self.create_sqrt_button()
+        #New Copy Button
+        copy_button = Button(
+            self.buttons_frame,
+            text="Copy",
+            cursor="hand2",
+            bg=COLOR_AMALGARA,
+            activebackground=COLOR_AMALGARA_BUTTONS_WHENHOVER,
+            fg="black",
+            font=("Bodoni", 24, "bold"),
+            borderwidth=0,
+            command=self.copy_result
+        )
+        copy_button.grid(row=0, column=4, sticky="nsew", padx=1, pady=1)
+        copy_button.bind('<Enter>', self.on_hover_digit_square)
+        copy_button.bind('<Leave>', self.on_defualt_digit_square)
         self.bind_key()
+
     def append_operator(self,operator):
         self.current_experassion+=operator
         self.total_experassion+=self.current_experassion
@@ -174,4 +190,19 @@ class calculator_APP():
             self.current_experassion='Error'
         finally:
             self.update_label()
+
+ # adding the copy result function below
+    def copy_result(self):
+        result = self.current_experassion.strip()
+        if result:
+            self.root.clipboard_clear()
+            self.root.clipboard_append(result)
+            self.root.update()  
+            self.current_lebel.config(fg="#4CAF50")  
+            self.root.after(500, lambda: self.current_lebel.config(fg="black"))
+        else:
+            self.current_lebel.config(text="No Result")
+            self.root.after(1000, self.update_label)
+
+
 calculator_APP()
